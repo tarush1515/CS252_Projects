@@ -7,9 +7,16 @@ using namespace std;
 
 int main()
 {
-    ifstream myfile("tocopy.txt");
+    string src,dest;
+    cout<<"Enter source file name to copy: ";
+    cin>>src;
+    cout<<"Enter destination file name to paste: ";
+    cin>>dest;
+    src=src+".txt";
+    dest=dest+".txt";
+    ifstream myfile(src);
     string text;
-    ofstream destination("destination.txt");
+    ofstream destination(dest);
     while (getline(myfile,text))
     {
         destination<<text;
