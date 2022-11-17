@@ -10,8 +10,7 @@ This program will prompt to ask you to enter the number of elements or values .T
 After the successful execution of this code we get the required average , minimum and maximum values of the entered values on the screen.
 
 ## Screenshot 
-
-
+![alt text](https://github.com/tarush1515/CS252_Projects/blob/main/Pthread/output.png)
 
 ## Command for getting Time Information
 
