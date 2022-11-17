@@ -8,6 +8,7 @@ First create the executable file for the program. Here, threads_exec can be rena
 `gcc -pthread -o threads_exec pthread.c`
 
 Run it using
+
 `./threads_exec`
 
 This program will prompt to ask you to enter the number of elements or values .Then enter all the values on which you want to perform this operation.
@@ -16,13 +17,6 @@ After the successful execution of this code we get the required average , minimu
 
 ## Screenshot 
 ![alt text](https://github.com/tarush1515/CS252_Projects/blob/main/Pthread/output.png)
-
-## Command for getting Time Information
-
-Code - `time `
-
-## Screenshot
-
 
 
 ## Implementation
@@ -71,7 +65,6 @@ Code - `time `
 
 
 
-
 ## References
 
 - C code for calculating average,minimum and maximum - [https://gist.github.com/Jabiribn/e58bf13c678953891900e5f982b48037]() 
@@ -80,7 +73,7 @@ Code - `time `
 
 - Websites -
 
-> [https://www.geeksforgeeks.org/thread-functions-in-c-c:~:text=To%20execute%20the%20c%20file,line%20while%20compiling%20the%20file.&text=Syntax%3A,void%20*%2C%20void%20*arg%3B](https://www.geeksforgeeks.org/thread-functions-in-c-c:~:text=To%20execute%20the%20c%20file,line%20while%20compiling%20the%20file.&text=Syntax%3A,void%20*%2C%20void%20*arg%3B)
+> [https://www.geeksforgeeks.org/thread-functions-in-c-c/](https://www.geeksforgeeks.org/thread-functions-in-c-c/)
 
 > [https://www.includehelp.com/c-programming-questions/compiling-program-with-pthread-library-linux.aspx](https://www.includehelp.com/c-programming-questions/compiling-program-with-pthread-library-linux.aspx)
 
@@ -89,12 +82,6 @@ Code - `time `
 > [https://www.ibm.com/docs/en/zos/2.3.0?topic=functions-pthread-create-create-thread#ptcrea](https://www.ibm.com/docs/en/zos/2.3.0?topic=functions-pthread-create-create-thread#ptcrea)
 
 
-
-- For understanding Commands and Syntax-
- Websites- [geeksforgeeks](https://www.geeksforgeeks.org/thread-functions-in-c-c/#:~:text=To%20execute%20the%20c%20file,line%20while%20compiling%20the%20file.&text=Syntax%3A,void%20*%2C%20void%20*arg%3B) ,
- [Includehelp](https://www.includehelp.com/c-programming-questions/compiling-program-with-pthread-library-linux.aspx) , [askubuntu](https://askubuntu.com/questions/420722/how-to-compile-a-c-program-that-uses-pthread-h)
-
-- For Assistance Satyam Kalyane- 201IT269 and Lohith N - 201IT133
 
 
 
