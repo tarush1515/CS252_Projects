@@ -3,7 +3,12 @@
 > Note: All the information written below is specific to Ubuntu operating system
 
 ## Running a Program
-`
+First create the executable file for the program. Here, threads_exec can be renamed to anything.
+
+`gcc -pthread -o threads_exec pthread.c`
+
+Run it using
+`./threads_exec`
 
 This program will prompt to ask you to enter the number of elements or values .Then enter all the values on which you want to perform this operation.
 
