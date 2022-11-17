@@ -16,6 +16,7 @@ void input()
 {
     printf("Enter the number of elements: ");
     scanf("%d",&count);
+    printf("Enter elements: \n");
     for(i=0;i<count;i++)
     {
         scanf("%f",& array[i]);
@@ -31,7 +32,8 @@ void *t_avg()
         sum  = sum + array[i];
     }
     average = sum/count ;
-    printf("\n Average is %f",average);
+    printf("Average is %f",average);
+    printf("\n");
 }
 
 /*  Thread-2    */
@@ -47,7 +49,8 @@ void *t_min()
         }
     }
     minimum = temp;
-    printf("\n Minimum is %f",minimum);
+    printf("Minimum is %f",minimum);
+    printf("\n");
 }
 
 /*  Thread-3    */
@@ -63,7 +66,9 @@ void *t_max()
         }
     }
     maximum = temp;
-    printf("\n Maximum is %f",maximum);
+    printf("Maximum is %f",maximum);
+    printf("\n");
+    
 }
 
 int main(void)
@@ -74,11 +79,11 @@ int main(void)
     pthread_t t2;
     pthread_t t3;
     
-   threads[0]=pthread_create(&t1,NULL,&t_avg,NULL);
-	
-   threads[1]=pthread_create(&t2,NULL,&t_min,NULL);
-	
-   threads[2]=pthread_create(&t3,NULL,&t_max,NULL);
+    threads[0]=pthread_create(&t1,NULL,&t_avg,NULL);
+
+    threads[1]=pthread_create(&t2,NULL,&t_min,NULL);
+
+    threads[2]=pthread_create(&t3,NULL,&t_max,NULL);
 
     pthread_join(t1,NULL);
 

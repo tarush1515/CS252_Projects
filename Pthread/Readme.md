@@ -1,17 +1,9 @@
-## Question-4.22-Solution
+## Multithreading using Pthreads
 
 > Note: All the information written below is specific to Ubuntu operating system
 
-### The Code for this Question is - 
-[Threaded_Program.c](https://github.com/varun-tiwari1/CS252_Assignment/blob/master/Question-2/Threaded_Program.c)
-
 ## Running a Program
-
-The c code file named main.c is kept in the replit(online) repository. Then in shell the code has been compiled and run using commands -
-
-For Compiling -  `gcc -pthread -w main.c`
-
-For Running -  `./a.out`
+`
 
 This program will prompt to ask you to enter the number of elements or values .Then enter all the values on which you want to perform this operation.
 
@@ -19,15 +11,15 @@ After the successful execution of this code we get the required average , minimu
 
 ## Screenshot 
 
-![alttext](https://github.com/varun-tiwari1/CS252_Assignment/blob/master/Question-2/Running_a_Program.png)
+
 
 ## Command for getting Time Information
 
-Code - `time ./a.out`
+Code - `time `
 
 ## Screenshot
 
-![alttext](https://github.com/varun-tiwari1/CS252_Assignment/blob/master/Question-2/Time_Information.png)
+
 
 ## Implementation
 
