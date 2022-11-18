@@ -16,6 +16,7 @@ This program will be passed a series of numbers on the command line and will the
 
 One thread will determine the average of the numbers, the second will determine the maximum value, and the third will determine the minimum value.
 
+To get started, head to the [Readme](https://github.com/tarush1515/CS252_Projects/blob/main/Pthread/Readme.md) file in the Strace directory.
 ---
 
 # Author
