@@ -20,4 +20,5 @@ One thread will determine the average of the numbers, the second will determine 
 ##Author
 
 Tarush Shankar (201EE173)
+
 [My Linkedin](https://www.linkedin.com/in/tarush-shankar-1095681b8/)
