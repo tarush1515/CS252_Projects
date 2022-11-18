@@ -15,3 +15,9 @@ This program will be passed a series of numbers on the command line and will the
 
 One thread will determine the average of the numbers, the second will determine the maximum value, and the third will determine the minimum value.
 
+---
+
+##Author
+
+Tarush Shankar (201EE173)
+[My Linkedin](https://www.linkedin.com/in/tarush-shankar-1095681b8/)
