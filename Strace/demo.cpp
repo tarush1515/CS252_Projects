@@ -12,8 +12,6 @@ int main()
     cin>>src;
     cout<<"Enter destination file name to paste: ";
     cin>>dest;
-    src=src+".txt";
-    dest=dest+".txt";
     ifstream myfile(src);
     string text;
     ofstream destination(dest);
