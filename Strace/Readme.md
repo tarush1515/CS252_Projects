@@ -70,10 +70,10 @@ You can also save this to an output file using the method shown above, for ex: `
 
 ## References
 
-- C code for copy-paste operation -
+- C++ code for copy-paste operation -
 > https://www.geeksforgeeks.org/cpp-program-to-copy-one-file-into-another-file/
 
-- For understanding system calls- websites like gfg,stackoverflow.OS Concepts mentioned above,You Tube.
+- For understanding system calls- websites like gfg, stackoverflow. OS Concepts mentioned above, Youtube.
 
 -Websites
 
