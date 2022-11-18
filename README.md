@@ -18,7 +18,7 @@ One thread will determine the average of the numbers, the second will determine 
 
 ---
 
-##Author
+## Author
 
 Tarush Shankar (201EE173)
 
