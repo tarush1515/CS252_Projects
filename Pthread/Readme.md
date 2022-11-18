@@ -81,8 +81,7 @@ After the successful execution of this code we get the required average , minimu
 
 > [https://www.ibm.com/docs/en/zos/2.3.0?topic=functions-pthread-create-create-thread#ptcrea](https://www.ibm.com/docs/en/zos/2.3.0?topic=functions-pthread-create-create-thread#ptcrea)
 
-
-
+- For code assistance : Varun Tiwari 201ME164
 
 
 
